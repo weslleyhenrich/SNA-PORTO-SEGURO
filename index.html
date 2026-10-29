@@ -584,8 +584,8 @@
   var cidades = {};
   REDE.sas.forEach(function(h){ if (h.p.Exato||h.p['Clássico']||h.p['Especial 100']) cidades[h.c]=1; });
   REDE.porto.forEach(function(h){ cidades[h.c]=1; });
-  var lista = Object.keys(cidades).sort(function(a,b){ return a==='São Paulo'?-1:b==='São Paulo'?1:a.localeCompare(b,'pt-BR'); });
-  rCid.innerHTML = '<option value="*">Capital e Grande SP (todas)</option>' + lista.map(function(c){ return '<option>'+esc(c)+'</option>'; }).join('');
+  var listaCidades = Object.keys(cidades).sort(function(a,b){ return a==='São Paulo'?-1:b==='São Paulo'?1:a.localeCompare(b,'pt-BR'); });
+  rCid.innerHTML = '<option value="*">Capital e Grande SP (todas)</option>' + listaCidades.map(function(c){ return '<option>'+esc(c)+'</option>'; }).join('');
   rCid.value = 'São Paulo';
   selAtual.addEventListener('change', function(){ rHoje.value = selAtual.value; rPorto.value = EQUIV[selAtual.value]; renderRede(); });
   rHoje.addEventListener('change', function(){ rPorto.value = EQUIV[rHoje.value]; renderRede(); });
