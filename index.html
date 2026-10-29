@@ -424,10 +424,8 @@
      DADOS — cotação SNA (FINAL), Porto.
      FAIXAS: 0-18, 19-23, 24-28, 29-33, 34-38, 39-43, 44-48, 49-53, 54-58, 59+
      ATUAL = SulAmérica reajustada (jul/2026). NOVO = Porto.
-     Faixas sem beneficiário na cotação (Prata Mais 29-33 e 49-53; Ouro Mais 19-23,
-     24-28, 49-53 e 59+) vêm da tabela Porto Linha Tradicional (30 a 99 vidas, Quarto)
-     com o mesmo desconto da cotação (fator 0,92767, igual em todas as faixas cotadas).
-     EST fica vazio; preencha só se algum valor voltar a ser estimado.
+     NOVO = tabela oficial Porto, apartamento (Bronze Brasil I Q, Prata Mais I Q, Ouro Mais I Q),
+     conferida faixa a faixa. EST fica vazio; preencha só se algum valor voltar a ser estimado.
      =================================================================== */
   var FAIXAS = ["0 a 18 anos","19 a 23 anos","24 a 28 anos","29 a 33 anos","34 a 38 anos",
                 "39 a 43 anos","44 a 48 anos","49 a 53 anos","54 a 58 anos","59 anos ou +"];
@@ -441,7 +439,7 @@
   var NOVO = {
     "Bronze Brasil": [359.30,435.73,525.64,601.77,652.02,673.37, 804.36, 865.92,1069.91,1798.44],
     "Prata Mais":    [390.49,473.55,571.26,654.00,708.61,731.81, 874.17, 941.08,1162.77,1954.53],
-    "Ouro Mais":     [557.65,676.27,815.81,933.97,1011.96,1045.10,1248.39,1343.95,1660.54,2791.23]
+    "Ouro Mais":     [557.65,676.28,815.82,933.97,1011.96,1045.10,1248.39,1343.95,1660.54,2791.24]
   };
   var EST = { "Bronze Brasil":[], "Prata Mais":[], "Ouro Mais":[] };
   var EQUIV = { "Exato":"Bronze Brasil", "Clássico":"Prata Mais", "Especial 100":"Ouro Mais" };
