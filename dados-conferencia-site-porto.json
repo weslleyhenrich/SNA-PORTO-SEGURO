@@ -1,0 +1,539 @@
+{
+ "fonte": "Site da Porto Saúde (Saúde > Rede Referenciada), busca por prestador",
+ "data_consulta": "29/10/2026",
+ "planos": [
+  "Bronze Brasil I Q",
+  "Prata Mais I Q",
+  "Ouro Mais I Q"
+ ],
+ "legenda": "true = atende; false = não apareceu neste plano; null = não verificado. a_confirmar = nome/unidade diferente da esperada.",
+ "hospitais": [
+  {
+   "cidade": "Barueri",
+   "hospital": "Hospital São Luiz Alphaville",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Caieiras",
+   "hospital": "Hospital das Clínicas Caieiras",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Cajamar",
+   "hospital": "Hospital Paulo Sacramento",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Carapicuíba",
+   "hospital": "Hospital Central Oeste",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Franco da Rocha",
+   "hospital": "Hospital Previna",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Guararema",
+   "hospital": "Santa Casa de Misericórdia de Guararema",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Guarulhos",
+   "hospital": "Hospital Stella Maris",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Guarulhos",
+   "hospital": "Hospital de Olhos Cro",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": true,
+   "observacao": "Não apareceu com este nome. Em Guarulhos só aparece o Hospital de Olhos de São Paulo."
+  },
+  {
+   "cidade": "Guarulhos",
+   "hospital": "Hospital e Maternidade Guarulhos",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Itapecerica da Serra",
+   "hospital": "Hospital Santa Monica",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Mauá",
+   "hospital": "Hospital e Maternidade Brasil UNID Maua",
+   "planos": [
+    false,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Mauá",
+   "hospital": "Santa Casa de Maua",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Osasco",
+   "hospital": "Hospital e Maternidade São Luiz Osasco",
+   "planos": [
+    false,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Ribeirão Pires",
+   "hospital": "Hospital Ribeirao Pires",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Santa Isabel",
+   "hospital": "Irmandade da Santa Casa de Misericórdia de",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Santo André",
+   "hospital": "Day Hospital Ana Rosa",
+   "planos": [
+    false,
+    false,
+    true
+   ],
+   "a_confirmar": true,
+   "observacao": "No site da Porto aparece como \"Grupo Ana Rosa Saúde\" (Santo André), só no Ouro Mais."
+  },
+  {
+   "cidade": "São Bernardo do Campo",
+   "hospital": "Hospital São Luiz - São Bernardo",
+   "planos": [
+    false,
+    null,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": "Prata Mais não verificado."
+  },
+  {
+   "cidade": "São Caetano do Sul",
+   "hospital": "Hospital N. Sra. de Fátima",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Caetano do Sul",
+   "hospital": "Hospital Di Thiene São Caetano",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "AACD",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Day Hospital de Ermelino Matarazzo",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": true,
+   "observacao": "Não apareceu com este nome. Existe \"Hospital São Miguel – Unidade Ermelino Matarazzo\", não considerado o mesmo."
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital A Oswaldo Cruz - UNID Cpo Belo",
+   "planos": [
+    false,
+    false,
+    true
+   ],
+   "a_confirmar": true,
+   "observacao": "No site da Porto só apareceu a unidade Bela Vista, não a de Campo Belo."
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital e Maternidade Oito Maio",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital e Maternidade Santa Maria",
+   "planos": [
+    false,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital e Maternidade Vidas",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Independencia",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Itaquera",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital São Paulo",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Central Sul",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital da Criança",
+   "planos": [
+    false,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital de Olhos de São Paulo",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital de Olhos Paulista",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Dia Unidade Vila Mariana",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital do Sepaco",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Dom Alvarenga",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Jd Helena",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Metropolitano",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Paulista",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Previna",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Saha",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Santa Virginia",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Hospital Vila Nova Star",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": true,
+   "observacao": "Não apareceu com este nome. O \"São Luiz Itaim\" (Ouro Mais) pode ser o mesmo hospital."
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Rede Opera",
+   "planos": [
+    false,
+    false,
+    false
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "São Paulo",
+   "hospital": "Unidade Avançada Luz Santo Amaro",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Suzano",
+   "hospital": "Hospital Saint Nicholas Medical",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Suzano",
+   "hospital": "Hospital Santa Maria de Suzano",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  },
+  {
+   "cidade": "Taboão da Serra",
+   "hospital": "Family Hospital",
+   "planos": [
+    true,
+    true,
+    true
+   ],
+   "a_confirmar": false,
+   "observacao": ""
+  }
+ ],
+ "removidos_da_lista": [
+  "Hospital Yes (Itapevi)",
+  "Centro Uro e Nefro Mogi das Cruzes",
+  "Hospital Mogiano (Mogi das Cruzes)",
+  "Mogi Maternidade Hospital e Maternidade",
+  "Pró-Criança Pronto Socorro Infantil (Osasco)",
+  "Centro de Tratamento Bezerra de Menezes (São Bernardo)",
+  "Hospital de Olhos ABC (São Bernardo)",
+  "Unidades Notre Dame Intermédica (Itapevi, Mogi, Osasco, São Bernardo)"
+ ]
+}
